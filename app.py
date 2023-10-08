@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect, url_for, request
-from config import app,db,Fixtures
+from config import app,db
 
 
 with app.app_context():
@@ -15,9 +15,6 @@ def standings():
 
 @app.route('/fixtures')
 def fixtures():
-    fixtures = Fixtures(time="14:00",day_month="Friday Oct",date="05/10/23",team_1="New Zealand",team_2="England",venue="Narendra Modi Staduium",matchNumber="1")
-    db.session.add(fixtures)
-    db.session.commit()
     return render_template('fixtures.html')
 
 @app.route('/Fan_Poll')
@@ -26,3 +23,4 @@ def Fan_Poll():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
