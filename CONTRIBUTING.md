@@ -17,7 +17,7 @@ This document contains certain rules and guidelines that developers are expected
   * Idk why this is not working
   * Only ui bug fixes left
   * All changes done, ready for production :))
-  
+
   
 * Before opening a PR, make sure you squash all your commits into one single commit using `git rebase` (squash). Instead of having 50 commits that describe 1 feature implementation, there must be one commit that describes everything that has been done so far. You can read up about it [here](https://www.internalpointers.com/post/squash-commits-into-one-git).
 > NOTE: While squashing your commits to write a new one, do not make use of `-m` flag. In this case, a vim editor window shall open. Write a title for the commit within 50-70 characters, leave a line and add an understandable description.
@@ -36,8 +36,8 @@ This document contains certain rules and guidelines that developers are expected
 
 ## 3. Branches and PRs
 
-* No commits must be made to the `master` branch directly. The `master` branch shall only consist of the working code.
-* Developers are expected to work on feature branches, and upon successful development and testing, a PR (pull request) must be opened to merge with master.
+* No commits must be made to the `main` branch directly. The `main` branch shall only consist of the working code.
+* Developers are expected to work on feature branches, and upon successful development and testing, a PR (pull request) must be opened to merge with main.
 * A branch must be named as either as the feature being implemented, or the issue being fixed. 
 
   :white_check_mark: __Examples of valid brach names:__
@@ -71,6 +71,6 @@ Developers should aim to write clean, maintainable, scalable and testable code. 
 * HTML: [HTML TUTORIAL](https://www.w3schools.com/html/)
 * CSS: [The CSS HANDBOOK-A Handy guide to CSS for Developers](https://www.freecodecamp.org/news/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11/)
 * JAVASCRIPT: [JavaScript](https://github.com/airbnb/javascript)
-* FLASK: [Airbnb](https://github.com/airbnb/javascript/tree/master/react)
-* MySQL: [Effective-Dart](https://dart.dev/guides/language/effective-dart)
+* FLASK: [Flask Documentation](https://flask.palletsprojects.com/en/3.0.x/)
+* SQLite: [SQLite Documentation](https://www.sqlite.org/docs.html)
 
