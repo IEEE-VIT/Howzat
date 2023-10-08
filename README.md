@@ -9,7 +9,7 @@
         <li>Fan_Poll: This section will help one to find the probability of a team to win or lose a particular match based on the results of a poll by fans before every match.</li>
     </ul>
     The Home page contains:
-    <li>The official ICC world Cup 23 logo</li>
+    <li>The official ICC World Cup 23 logo</li>
     <li>List of Teams participating in the ICC World cup 2023</li>
     <li>Social links in the footer of the page</li>
     <br>
@@ -37,7 +37,7 @@ It is structured according to Flask where there are:
 
 <h1>Getting Started</h1>
 <ul>
-  <li>Clone the repo. git clone https://github.com/IEEE-VIT/REST_API</li>
+  <li>Clone the repo. git clone https://github.com/IEEE-VIT/Howzat</li>
   <li>Checkout to a new branch. git checkout -b my-amazing-feature</li>
   <li>Make some amazing changes.</li>
   <li>git add .</li>
