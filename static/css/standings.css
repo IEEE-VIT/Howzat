@@ -1,0 +1,148 @@
+body {
+    background-color: #320073;
+}
+section {
+    display: block;
+}
+
+header {
+    display: block;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.standings__subtitle {
+    font-family: CWC;
+    font-weight: 600;
+    font-size: 3.6rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.standings__subtitle span {
+    color: #FF00A5;
+}
+
+.table {
+    width: 100%;
+    margin: 2rem 0 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.standings .table .table-head__cell {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: #FF00A5;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space-collapse: collapse;
+    text-wrap: wrap;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    font-variant: normal;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.table-head__cell {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    white-space: nowrap;
+    background: #e6e9f0;
+    color: #95a1a8;
+}
+
+.u-text-left {
+    text-align: left!important;
+}
+
+.u-hide-desktop {
+    display: none;
+}
+
+.u-show-phablet {
+    display: none;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table-body:nth-child(odd) {
+    background:white;
+}
+
+.table-body:nth-child(even) {
+    background:white;
+}
+
+.table-body__cell {
+    padding: 0.8rem 1rem;
+    line-height: 1.2;
+    border-bottom: 1px solid #e6e9f0;
+    color: #798891;
+}
+
+.table-body__cell--main {
+    font-weight: 600;
+    text-align: left;
+}
+
+.standings .table .table-body__cell {
+    color: #320073;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 1.15rem 1rem 1.25rem;
+}
+
+.standings .table .table-body__cell--main {
+    font-family: CWC;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    padding: 1.25rem 1rem 1.05rem;
+}
+

@@ -1,0 +1,108 @@
+body{
+  background-color: #320073;
+}
+.icclogo{
+  display: flex;
+  height: 380px;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.table{
+  display: flex;
+}
+
+.teamlogo{
+  height: 10px;
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  background-color: #FF00A5;
+  height: 20rem;
+  width: 40%;
+  padding: 1%;
+  justify-content: center;
+  margin:0 20px 0 20px;
+  border-radius: 50px;
+  box-shadow: 3px 4px 2px rgba(0,0,0,0.25)
+}
+
+.team{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: x-large;
+  padding: 3%;
+}
+.icclogo{
+  opacity: 0.8;
+}
+
+.logo{
+  height:20px;
+  width:40px;
+}
+
+header {
+  background-color: #320073;
+}
+
+.navbar {
+  display: flex;
+  background-color: #FF00A5;
+  padding: 1%;
+  border-radius:25px;
+  box-shadow: 3px 4px 2px rgba(0,0,0,0.25)
+}
+
+
+#title {
+  text-align: center;
+  color: white;
+}
+
+.nav {
+  color: white;
+}
+
+#standings, #fixtures, #fantasy {
+  padding: 1%;
+  color: white;
+  font-size: large;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-social__subtitle {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.footer-social__item {
+  position: relative;
+  margin-right: 1.6rem;
+}
+
+.footer-social__link .icon {
+  height: 2.6rem;
+  width: 2.6rem;
+  transition: fill .2s ease-in-out;
+  fill: white;
+}
+
+svg.icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: currentColor;
+}
