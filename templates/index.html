@@ -3,7 +3,7 @@
 {% block head %}
   <meta charset="UTF-8">
   <title>ICC WorldCup'23</title>
-  <link rel="stylesheet" href="/icc-wc23-hacktoberfest-ieee-main/static/css/style.css">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 {% endblock %}
 {% block body %}
   <header>
@@ -16,60 +16,60 @@
   </header>
   <div>
     <a href="index.html">
-      <div class="icclogo"><img src="./static/SVG/ICC-WC-logo.png" alt="icc-logo"></div>
+      <div class="icclogo"><img src="{{url_for('static', filename='SVG/ICC-WC-logo.png')}}" alt="icc-logo"></div>
     </a>
     <div class="table">
       <div class="group">
         <div class="team">
             <div><span>1</span></div>
-            <img class='logo' src="./static/SVG/afg.svg" alt="Afghanistan">
+            <img class='logo' src="{{url_for('static', filename='SVG/afg.svg')}}" alt="Afghanistan">
             <div>AFG</div>
         </div>
         <div class='team'>
             <div><span>2</span></div>
-            <img class='logo' src="./static/SVG/aus.svg" alt="Australia">
+            <img class='logo' src="{{url_for('static', filename='SVG/aus.svg')}}" alt="Australia">
             <div>AUS</div>
         </div>
         <div class="team">
             <div><span>3</span></div>
-            <img class='logo' src="./static/SVG/bang.svg" alt="Bangladesh">
+            <img class='logo' src="{{url_for('static', filename='SVG/bang.svg')}}" alt="Bangladesh">
             <div>BAN</div>
         </div>
         <div class="team">
             <div><span>4</span></div>
-            <img class='logo' src="./static/SVG/sa.svg" alt="England">
+            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="England">
             <div>ENG</div>
         </div>
         <div class="team">
             <div><span>5</span></div>
-            <img class='logo' src="./static/SVG/ind.svg" alt="India">
+            <img class='logo' src="{{url_for('static', filename='SVG/ind.svg')}}" alt="India">
             <div>IND</div>
         </div>
       </div>
       <div class="group">
         <div class="team">
           <div><span>6</span></div>
-            <img class='logo' src="./static/SVG/sa.svg" alt="Netherlands">
+            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="Netherlands">
             <div>ND</div>
         </div>
         <div class="team">
             <div><span>7</span></div>
-            <img class='logo' src="./static/SVG/sa.svg" alt="newzealand">
+            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="newzealand">
             <div>NZ</div>
         </div>
         <div class="team">
           <div><span>8</span></div>
-            <img class='logo' src="./static/SVG/pak.svg " alt="pakistan">
+            <img class='logo' src="{{url_for('static', filename='SVG/pak.svg')}} " alt="pakistan">
             <div>PAK</div>
         </div>
         <div class="team">
             <div><span>9</span></div>
-            <img class='logo' src="./static/SVG/sa.svg" alt="southafrica">
+            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="southafrica">
             <div>SA</div>
         </div>
         <div class="team">
             <div><span>10</span></div>
-            <img class='logo' src="./static/SVG/sl.svg" alt="srilanka">
+            <img class='logo' src="{{url_for('static', filename='SVG/sl.svg')}}" alt="srilanka">
             <div>SL</div>
         </div>
       </div>
