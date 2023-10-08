@@ -1,0 +1,267 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/standings.css')}}">
+{% endblock %}
+{% block body %}
+  <section class="standings ">
+
+        
+
+    <header class="standings__header">
+        <h3></h3>
+    </header>
+  
+    
+  
+            <h3 class="standings__subtitle">
+                    <span>Group</span> Stage
+            </h3>
+  
+            <table class="table">
+  
+                <thead>
+                    <tr class="table-head">
+                        <th class="table-head__cell">Pos</th>
+                        <th class="table-head__cell u-text-left">Team</th>
+                        <th class="table-head__cell u-hide-phablet">Played</th>
+                        <th class="table-head__cell u-show-phablet">PLD</th>
+                        <th class="table-head__cell u-hide-phablet">Won</th>
+                        <th class="table-head__cell u-hide-phablet">Lost</th>
+                        <th class="table-head__cell u-hide-desktop">N/R</th>
+                        <th class="table-head__cell u-hide-desktop">Tied</th>
+                        <th class="table-head__cell u-hide-phablet">Net RR</th>
+                        <th class="table-head__cell u-show-phablet">NRR</th>
+                        <th class="table-head__cell"><span class="u-hide-phablet">Points</span><span class="u-show-phablet">Pts</span></th>
+                    </tr>
+                </thead>
+  
+                <tbody>
+  
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">1
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                          
+                                <span class="u-hide-phablet table-link-text">Afghanistan</span>
+                                <span class="u-show-phablet">AFG</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">2
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">Australia</span>
+                                <span class="u-show-phablet">AUS</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">3
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">Bangladesh</span>
+                                <span class="u-show-phablet">BAN</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body table-body--qualifier">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">4
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">England</span>
+                                <span class="u-show-phablet">ENG</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">5
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">India</span>
+                                <span class="u-show-phablet">IND</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">6
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">Netherlands</span>
+                                <span class="u-show-phablet">NED</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">7
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">New Zealand</span>
+                                <span class="u-show-phablet">NZ</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">8
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">Pakistan</span>
+                                <span class="u-show-phablet">PAK</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" span="">9
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">South Africa</span>
+                                <span class="u-show-phablet">SA</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+  
+                        
+                        <tr class="table-body ">
+  
+                            <td class="table-body__cell table-body__cell--position" >10</td>
+                                <span class="indicator"></span>
+                            </td>
+                            <td class="table-body__cell table-body__cell--main">
+                                
+                                <span class="u-hide-phablet table-link-text">Sri Lanka</span>
+                                <span class="u-show-phablet">SL</span>
+                            </td>
+                            <td class="table-body__cell">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+                            <td class="table-body__cell u-hide-phablet">0</td>
+  
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell u-hide-desktop">0</td>
+                            <td class="table-body__cell">+0.000</td>
+  
+                            <td class="table-body__cell table-body__cell--points">0</td>
+                        </tr>
+                </tbody>
+            </table>
+  </section>
+{% endblock %}

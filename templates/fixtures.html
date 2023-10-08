@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World cup 2022</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/fixtures.css')}}" />
+{% endblock %}
+{% block body %}
+    <div class="container">
+        <h1 class="section-heading">Fixtures</h1>
+        <div class="matchs" id="match-date">
+            <div class="match">
+                <div class="match-info">
+                    <h4 class="venue">Venue</h4>
+                    <h4><span class="badge">1</span> </h4>
+                </div>
+                <div class="teams">
+                    <div>
+                    <h3 class="team1">Team1</h3>
+                    </div>
+                    <span class="vs">
+                    VS
+                    </span>
+                    <div>
+                    <h3 class="team2">Team2</h3>
+                    </div>
+                </div>
+                <div class="time-area">
+                    <div class="time">
+                        <h4 class="month">Month</h4>
+                        <h4 class="date">Date<h4>
+                    </div>
+                    <h4 class="match-time">00:00</h4>
+                </div>
+             </div>
+             <div class="match">
+                <div class="match-info">
+                    <h4 class="venue">Venue</h4>
+                    <h4><span class="badge">2</span> </h4>
+                </div>
+                <div class="teams">
+                    <div>
+                    <h3 class="team1">Team1</h3>
+                    </div>
+                    <span class="vs">
+                    VS
+                    </span>
+                    <div>
+                    <h3 class="team2">Team2</h3>
+                    </div>
+                </div>
+                <div class="time-area">
+                    <div class="time">
+                        <h4 class="month">Month</h4>
+                        <h4 class="date">Date<h4>
+                    </div>
+                    <h4 class="match-time">00:00</h4>
+                </div>
+             </div>
+        </div>
+{% endblock %}

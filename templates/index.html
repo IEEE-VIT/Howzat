@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <meta charset="UTF-8">
+  <title>ICC WorldCup'23</title>
+  <link rel="stylesheet" href="/icc-wc23-hacktoberfest-ieee-main/static/css/style.css">
+{% endblock %}
+{% block body %}
+  <header>
+    <div class="navbar">
+        <div id="standings"><a class="nav" href="{{url_for('standings')}}">Standings</a></div>
+        <div id="fixtures"><a class="nav" href="{{url_for('fixtures')}}">Fixtures</a></div>
+        <div id="fantasy"><a class="nav" href="{{url_for('Fan_Poll')}}">Fan Poll</div>
+    </div>
+    <h1 id="title">Welcome to ICC World Cup 2023</h1>
+  </header>
+  <div>
+    <a href="index.html">
+      <div class="icclogo"><img src="./static/SVG/ICC-WC-logo.png" alt="icc-logo"></div>
+    </a>
+    <div class="table">
+      <div class="group">
+        <div class="team">
+            <div><span>1</span></div>
+            <img class='logo' src="./static/SVG/afg.svg" alt="Afghanistan">
+            <div>AFG</div>
+        </div>
+        <div class='team'>
+            <div><span>2</span></div>
+            <img class='logo' src="./static/SVG/aus.svg" alt="Australia">
+            <div>AUS</div>
+        </div>
+        <div class="team">
+            <div><span>3</span></div>
+            <img class='logo' src="./static/SVG/bang.svg" alt="Bangladesh">
+            <div>BAN</div>
+        </div>
+        <div class="team">
+            <div><span>4</span></div>
+            <img class='logo' src="./static/SVG/sa.svg" alt="England">
+            <div>ENG</div>
+        </div>
+        <div class="team">
+            <div><span>5</span></div>
+            <img class='logo' src="./static/SVG/ind.svg" alt="India">
+            <div>IND</div>
+        </div>
+      </div>
+      <div class="group">
+        <div class="team">
+          <div><span>6</span></div>
+            <img class='logo' src="./static/SVG/sa.svg" alt="Netherlands">
+            <div>ND</div>
+        </div>
+        <div class="team">
+            <div><span>7</span></div>
+            <img class='logo' src="./static/SVG/sa.svg" alt="newzealand">
+            <div>NZ</div>
+        </div>
+        <div class="team">
+          <div><span>8</span></div>
+            <img class='logo' src="./static/SVG/pak.svg " alt="pakistan">
+            <div>PAK</div>
+        </div>
+        <div class="team">
+            <div><span>9</span></div>
+            <img class='logo' src="./static/SVG/sa.svg" alt="southafrica">
+            <div>SA</div>
+        </div>
+        <div class="team">
+            <div><span>10</span></div>
+            <img class='logo' src="./static/SVG/sl.svg" alt="srilanka">
+            <div>SL</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="global-footer__social-container">
+      <ul class="footer-social">
+<h5 class="footer-social__subtitle">Follow <span>Us</span> On social</h5>
+<li class="footer-social__item">
+<a href="https://www.facebook.com/cricketworldcup/" class="footer-social__link facebook" target="_blank">	<svg class="icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v1.18.1-wl/i/svg-output/icons.svg#icn-facebook"></use>
+</svg>
+</a>
+</li>
+<li class="footer-social__item">
+<a href="https://twitter.com/cricketworldcup" class="footer-social__link twitter" target="_blank">	<svg class="icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v1.18.1-wl/i/svg-output/icons.svg#icn-twitter"></use>
+</svg>
+</a>
+</li>
+<li class="footer-social__item">
+<a href="https://www.instagram.com/cricketworldcup/" class="footer-social__link instagram" target="_blank">	<svg class="icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v1.18.1-wl/i/svg-output/icons.svg#icn-instagram"></use>
+</svg>
+</a>
+</li>
+<li class="footer-social__item">
+<a href="https://www.youtube.com/user/CricketICC"  class="footer-social__link youtube" target="_blank">	<svg class="icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v1.18.1-wl/i/svg-output/icons.svg#icn-youtube"></use>
+</svg>
+</a>
+</li>
+</ul>
+
+  </div>
+  </footer>
+{% endblock %}
