@@ -20,6 +20,8 @@ By clicking on each country's icon, you must be redirected to a page containing 
 You can check out the website [here](https://ieee-cwc.onrender.com/).<br>
 It will automatically be redeployed whenever a PR is merged
 
+All databas operations(creating a table, populating a table and so on) must be perfomed in the **populate.py** file
+
 ## Tech Stack
 
 - HTML5
