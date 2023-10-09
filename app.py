@@ -1,9 +1,11 @@
-from flask import Flask, render_template, redirect, url_for, request
-from config import app,db
+from flask import render_template
+from populate import populate
+import config
 
+app = config.app
 
 with app.app_context():
-    db.create_all()
+    populate(config)
     
 @app.route('/')
 def index():
