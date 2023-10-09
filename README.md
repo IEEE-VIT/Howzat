@@ -20,7 +20,7 @@ By clicking on each country's icon, you must be redirected to a page containing 
 You can check out the website [here](https://ieee-cwc.onrender.com/).<br>
 It will automatically be redeployed whenever a PR is merged
 
-All databas operations(creating a table, populating a table and so on) must be perfomed in the **populate.py** file
+**populate.py** is crafted for managing static data like fixtures and player information, functioning as a tool to maintain a uniform database across all users.
 
 ## Tech Stack
 
@@ -38,7 +38,7 @@ The website is structured according to Flask, organized into the following compo
 
 - **Templates Folder:** Contains all HTML files
 - **Static Folder:** Contains subfolders storing styling files (CSS), images (SVG), and relevant JavaScript files
-- **Python Files:** app.py, config.py
+- **Python Files:** app.py, config.py, populate.py
 
 ## Getting Started
 
