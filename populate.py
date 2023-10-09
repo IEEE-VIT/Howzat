@@ -8,6 +8,7 @@ def populate(config):
     db.create_all()
 
     # Fixtures
+    # ******** Warning: All data from Fixtures table will be removed! Beware if you have made changes! ********
     Fixtures.query.delete()
     db.session.add(Fixtures(time="14:00",day_month="Thursday Oct",date="05/10/23",team_1="England",team_2="New Zealand",venue="Narendra Modi Staduium",matchNumber="1"))
     db.session.add(Fixtures(time="14:00",day_month="Friday Oct",date="06/10/23",team_1="Pakistan",team_2="Netherlands",venue="Rajiv Gandhi International Stadium",matchNumber="2"))
