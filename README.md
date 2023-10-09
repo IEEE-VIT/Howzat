@@ -14,6 +14,7 @@
     <li>Social links in the footer of the page</li>
     <br>
     When each country's icon is pressed you should be led to a page where the squad details are present.
+    You can check out the website <a href="https://ieee-cwc.onrender.com/">here</a>
 </ul>
 <h1>Tech Stack</h1>
 <ul>
