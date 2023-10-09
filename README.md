@@ -1,52 +1,51 @@
 # Howzat
-<h1>About</h1>
-<ul>
-   <li>This website is aimed to make cricket fans stay updated on the current ICC Men’s Cricket World Cup 2023. </li>
-   <li>Opening the website will lead you to the Home page where one can find a navigation bar at the top which leads to different tabs:</li>
-   <ul>
-        <li>Standings: This is where you'll find the current standings of the team. (standings.html, standings.css)</li>
-        <li>Fixtures: You'll find a schedule of matches from beginning to finals and each match along with its venue. (fixtures.html, fixtures.css)
-        <li>Fan_Poll: This section will help one to find the probability of a team to win or lose a particular match based on the results of a poll by fans before every match.</li>
-    </ul>
-    The Home page contains:
-    <li>The official ICC World Cup 23 logo</li>
-    <li>List of Teams participating in the ICC World cup 2023</li>
-    <li>Social links in the footer of the page</li>
-    <br>
-    When each country's icon is pressed you should be led to a page where the squad details are present.
-</ul>
-<h1>Tech Stack</h1>
-<ul>
-   <li>HTML5</li>
-   <li>CSS</li>
-   <li>JavaScript</li>
-   <li>Flask</li>
-   <li>Jinja2</li>
-   <li>SQLite (Database)</li>
-   <li>OAuth</li>
-</ul>
 
-<h1>Structure</h1>
-It is structured according to Flask where there are:
+<img src="./images/Howzat.png">
 
-      Templates Folder: Contains all HTML files
-      
-      Static Folder: Contains two subfolders which stores all the styling files(CSS),images used(SVG) and the relevant JavaScript files .
-      
-      Python Files: app.py, config.py
+## About
 
-<h1>Getting Started</h1>
-<ul>
-  <li>Clone the repo. git clone https://github.com/IEEE-VIT/Howzat</li>
-  <li>Checkout to a new branch. git checkout -b my-amazing-feature</li>
-  <li>Make some amazing changes.</li>
-  <li>git add .</li>
-  <li>git commit -m "A short description about the feature."</li>
-  <li>git push origin my-amazing-feature</li>
-  <li>Open a pull request to tons of issues we've curated for you :)</li>
-</ul>
+This website is aimed at keeping cricket fans updated on the current ICC Men’s Cricket World Cup 2023. Upon opening the website, you will be directed to the Home page, where you can find a navigation bar at the top leading to different tabs:
 
-To start contributing, check out [CONTRIBUTING.md](https://github.com/IEEE-VIT/Howzat/blob/main/CONTRIBUTING.md) .<br>
-Feel free to fork the repository and submit a pull request with your changes.<br> 
-We welcome improvements, bug fixes, and additional features!
+- **Standings:** This section displays the current standings of the teams. (standings.html, standings.css)
+- **Fixtures:** Here, you can find the schedule of matches from the beginning to the finals, including details about each match and its venue. (fixtures.html, fixtures.css)
+- **Fan Poll:** This section helps you find the probability of a team winning or losing a particular match based on the results of a poll conducted by fans before every match.
 
+The Home page also contains:
+
+- The official ICC World Cup 23 logo
+- A list of teams participating in the ICC World Cup 2023
+- Social links in the footer of the page
+
+By clicking on each country's icon, you must be redirected to a page containing squad details. <br><br>
+You can check out the website [here](https://ieee-cwc.onrender.com/).<br>
+It will automatically be redeployed whenever a PR is merged
+
+## Tech Stack
+
+- HTML5
+- CSS
+- JavaScript
+- Flask
+- Jinja2
+- SQLite (Database)
+- OAuth
+
+## Structure
+
+The website is structured according to Flask, organized into the following components:
+
+- **Templates Folder:** Contains all HTML files
+- **Static Folder:** Contains subfolders storing styling files (CSS), images (SVG), and relevant JavaScript files
+- **Python Files:** app.py, config.py
+
+## Getting Started
+
+1. Clone the repository: `git clone https://github.com/IEEE-VIT/Howzat`
+2. Checkout to a new branch: `git checkout -b my-amazing-feature`
+3. Make your changes.
+4. `git add .`
+5. `git commit -m "A short description of the feature."`
+6. `git push origin my-amazing-feature`
+7. Open a pull request to the curated issues.
+
+To start contributing, [CONTRIBUTING.md](https://github.com/IEEE-VIT/Howzat/blob/main/CONTRIBUTING.md) . <br>Feel free to fork the repository and submit a pull request with your changes. We welcome improvements, bug fixes, and additional features!
