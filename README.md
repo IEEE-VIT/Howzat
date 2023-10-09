@@ -46,7 +46,7 @@ It is structured according to Flask where there are:
   <li>Open a pull request to tons of issues we've curated for you :)</li>
 </ul>
 
-To start contributing, check out [CONTRIBUTING.md](https://github.com/IEEE-VIT/ArduTunes/blob/main/CONTRIBUTING.md .<br>
+To start contributing, check out [CONTRIBUTING.md](https://github.com/IEEE-VIT/Howzat/blob/main/CONTRIBUTING.md) .<br>
 Feel free to fork the repository and submit a pull request with your changes.<br> 
 We welcome improvements, bug fixes, and additional features!
 
