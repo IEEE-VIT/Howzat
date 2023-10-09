@@ -1,6 +1,6 @@
 # Howzat
 
-<img src="./images/Howzat.png">
+<img src="./images/Howzat.png" alt="README Banner">
 
 ## About
 
