@@ -79,6 +79,9 @@ header {
   position: relative;
   z-index: 10;
 }
+.footer-social ul{
+  list-style: none;
+}
 
 .footer-social__subtitle {
   width: 100%;
@@ -101,8 +104,8 @@ header {
   fill: white;
 }
 
-svg.icon {
+svg {
   width: 1.8rem;
   height: 1.8rem;
-  fill: currentColor;
+  fill: white;
 }
