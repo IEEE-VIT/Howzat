@@ -17,7 +17,8 @@ def standings():
 
 @app.route('/fixtures')
 def fixtures():
-    return render_template('fixtures.html')
+    fixtures = config.Fixtures.query.all()
+    return render_template('fixtures.html', fixtures=fixtures)
 
 @app.route('/Fan_Poll')
 def Fan_Poll():
