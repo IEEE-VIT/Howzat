@@ -1,6 +1,9 @@
 from flask import render_template
 from populate import populate
+from standings_scapper import standings_scapper
 import config
+
+SCRAPPING_URL = "https://www.cricketworldcup.com/standings/"
 
 app = config.app
 
@@ -13,7 +16,8 @@ def index():
 
 @app.route('/standings')
 def standings():
-    return render_template('standings.html')
+    standings = standings_scapper(SCRAPPING_URL)
+    return render_template('standings.html', standings=standings)
 
 @app.route('/fixtures')
 def fixtures():
