@@ -91,13 +91,19 @@ body {
     display: inline-flex;
     width: 3rem;
     height: 3rem;
-    background: var(--card-bg);
-    color: var(--badge-text);
+    background: white;
     box-shadow: 0 0 0.2rem 0.1rem var(--card-bg);
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5rem;
+    z-index: 1;
+    box-shadow: 0 0 0.2rem 0.1rem var(--shadow);
+    color: rgb(50, 0, 115);
 }
 
 .teams {
@@ -131,14 +137,14 @@ body {
     position: fixed;
     right: 0.5rem;
     bottom: 2rem;
-    background: var(--bg);
+    background: white;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 0.1rem var(--badge-text);
+    box-shadow: black 0 0 0.2rem 0.1rem;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
     z-index: 100;
