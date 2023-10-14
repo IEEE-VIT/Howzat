@@ -3,6 +3,7 @@
 {% block head %}
   <meta charset="UTF-8">
   <title>ICC WorldCup'23</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 {% endblock %}
 {% block body %}
@@ -22,89 +23,92 @@
       <div class="group">
         <div class="team">
             <div><span>1</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/afg.svg')}}" alt="Afghanistan">
+            <img class='logo' src="static\SVG\afghanistan.png" alt="Afghanistan">
             <div>AFG</div>
         </div>
         <div class='team'>
             <div><span>2</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/aus.svg')}}" alt="Australia">
+            <img class='logo' src="static\SVG\australia.png" alt="Australia">
             <div>AUS</div>
         </div>
         <div class="team">
             <div><span>3</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/bang.svg')}}" alt="Bangladesh">
+            <img class='logo' src="static\SVG\bangladesh.png" alt="Bangladesh">
             <div>BAN</div>
         </div>
         <div class="team">
             <div><span>4</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="England">
+            <img class='logo' src="static\SVG\england.png" alt="England">
             <div>ENG</div>
         </div>
         <div class="team">
             <div><span>5</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/ind.svg')}}" alt="India">
+            <img class='logo' src="static\SVG\india.png" alt="India">
             <div>IND</div>
         </div>
       </div>
       <div class="group">
         <div class="team">
           <div><span>6</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="Netherlands">
+            <img class='logo' src="static\SVG\netherlands.png" alt="Netherlands">
             <div>ND</div>
         </div>
         <div class="team">
             <div><span>7</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="newzealand">
+            <img class='logo' src="static\SVG\new-zealand.png" alt="newzealand">
             <div>NZ</div>
         </div>
         <div class="team">
           <div><span>8</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/pak.svg')}} " alt="pakistan">
+            <img class='logo' src="static\SVG\pakistan.png" alt="pakistan">
             <div>PAK</div>
         </div>
         <div class="team">
             <div><span>9</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="southafrica">
+            <img class='logo' src="static\SVG\south-africa.png" alt="southafrica">
             <div>SA</div>
         </div>
         <div class="team">
             <div><span>10</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sl.svg')}}" alt="srilanka">
+            <img class='logo' src="static\SVG\sri-lanka.png" alt="srilanka">
             <div>SL</div>
         </div>
       </div>
+      
     </div>
   </div>
-  <footer>
+  <br><br><br>
+  <footer class="footer">
     <div class="global-footer__social-container">
-      <ul class="footer-social">
-<h5 class="footer-social__subtitle">Follow <span>Us</span> On social</h5>
-<li class="footer-social__item">
-<a href="https://www.facebook.com/cricketworldcup/" class="footer-social__link facebook" target="_blank">	<svg class="icon">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v1.18.1-wl/i/svg-output/icons.svg#icn-facebook"></use>
-</svg>
-</a>
-</li>
-<li class="footer-social__item">
-<a href="https://twitter.com/cricketworldcup" class="footer-social__link twitter" target="_blank">	<svg class="icon">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v1.18.1-wl/i/svg-output/icons.svg#icn-twitter"></use>
-</svg>
-</a>
-</li>
-<li class="footer-social__item">
-<a href="https://www.instagram.com/cricketworldcup/" class="footer-social__link instagram" target="_blank">	<svg class="icon">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v1.18.1-wl/i/svg-output/icons.svg#icn-instagram"></use>
-</svg>
-</a>
-</li>
-<li class="footer-social__item">
-<a href="https://www.youtube.com/user/CricketICC"  class="footer-social__link youtube" target="_blank">	<svg class="icon">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v1.18.1-wl/i/svg-output/icons.svg#icn-youtube"></use>
-</svg>
-</a>
-</li>
-</ul>
-
-  </div>
+      <div class="footer-social">
+        <h5 class="footer-social__subtitle">Follow <span>Us</span> On social</h5>
+        <div class="footer-social__item">
+          <a href="https://www.facebook.com/cricketworldcup/" class="footer-social__link facebook" target="_blank">	
+            <svg class="icon">
+              <i class="fab fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </svg>
+          </a>
+        </div>
+        <div class="footer-social__item">
+          <a href="https://twitter.com/cricketworldcup" class="footer-social__link twitter" target="_blank">	<svg class="icon">
+            <i class="fab fa-brands fa-twitter" style="color: #ffffff;"></i>
+          </svg>
+          </a>
+        </div>
+        <div class="footer-social__item">
+          <a href="https://www.instagram.com/cricketworldcup/" class="footer-social__link instagram" target="_blank">	<svg class="icon">
+            <i class="fab fa-brands fa-instagram" style="color: #ffffff;"></i>
+          </svg>
+          </a>
+        </div>
+        <div class="footer-social__item">
+          <a href="https://www.youtube.com/user/CricketICC"  class="footer-social__link youtube" target="_blank">	
+            <svg class="icon">
+              <i class="fab fa-brands fa-youtube" style="color: #ffffff;"></i>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
   </footer>
 {% endblock %}

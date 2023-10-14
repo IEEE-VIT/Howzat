@@ -10,7 +10,9 @@
 {% endblock %}
 {% block body %}
     <div class="container">
+        
         <h1 class="section-heading">Fixtures</h1>
+
         <div class="matchs" id="match-date">
             {% for fixture in fixtures %}
                 <div class="match">
@@ -36,7 +38,8 @@
                         </div>
                         <h4 class="match-time">{{ fixture.time }}</h4>
                     </div>
-             </div>
+                </div>
             {% endfor %}
         </div>
+    </div>
 {% endblock %}

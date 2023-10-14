@@ -60,7 +60,7 @@ table {
     color: -internal-quirk-inherit;
     text-align: start;
     border-spacing: 2px;
-    border-color: gray;
+    /* border-color: gray; */
     font-variant: normal;
 }
 
