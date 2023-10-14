@@ -6,6 +6,7 @@ body{
   height: 380px;
   justify-content: center;
   margin-right: 50px;
+  opacity: 1.0;
 }
 
 /*logo resize*/
