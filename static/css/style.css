@@ -13,6 +13,7 @@ body{
 
 .table{
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 .group{
@@ -22,12 +23,6 @@ body{
 
 }
 
-.teamlogo{
-  height: 10px;
-  width: 20px;
-  margin-right: 10px;
-
-}
 .group{
   display: flex;
   flex-direction: column;
@@ -52,15 +47,17 @@ body{
   
 }
 .icclogo{
-  opacity: 0.8;
+  opacity: 1;
 
   cursor: default;
   transition: 0.3s;
 }
 
 .logo{
-  height:20px;
-  width:40px;
+  height: auto;
+  width: 40px;
+  margin-right: 10px;
+
 }
 
 header {
@@ -142,4 +139,25 @@ svg.icon {
   width: 1.8rem;
   height: 1.8rem;
   fill: currentColor;
+}
+.footer {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  margin-bottom: auto;
+  background-color: #320073;
+  color: white;
+  text-align: center;
+
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+th {
+  font-weight: bold;
 }
