@@ -8,6 +8,12 @@ body{
   margin-right: 50px;
 }
 
+/*logo resize*/
+.icclogo img {
+  width: 15rem;
+  object-fit: contain;
+}
+
 .table{
   display: flex;
 }
