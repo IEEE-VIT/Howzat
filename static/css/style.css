@@ -92,6 +92,7 @@ header {
 .footer-social__item {
   position: relative;
   margin-right: 1.6rem;
+  list-style-type: none;
 }
 
 .footer-social__link .icon {
