@@ -1,0 +1,8 @@
+  <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+        <!-- White background -->
+        <rect width="100%" height="100%" fill="#FFFFFF" />
+
+        <!-- Red cross of St. George -->
+        <rect width="100%" height="20%" y="40%" fill="#FF0000" />
+        <rect width="20%" height="100%" x="40%" fill="#FF0000" />
+    </svg>
