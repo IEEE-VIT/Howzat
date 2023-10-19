@@ -1,3 +1,6 @@
+html{
+  background-color: #320073;
+}
 body{
   background-color: #320073;
 }
@@ -72,6 +75,7 @@ header {
   font-size: large;
 }
 
+
 .footer-social {
   display: flex;
   justify-content: center;
@@ -79,7 +83,7 @@ header {
   position: relative;
   z-index: 10;
 }
-.footer-social ul{
+.footer-social {
   list-style: none;
 }
 
@@ -107,5 +111,5 @@ header {
 svg {
   width: 1.8rem;
   height: 1.8rem;
-  fill: white;
+  fill: rgb(255, 255, 255);
 }
