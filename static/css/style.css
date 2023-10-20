@@ -48,12 +48,75 @@ header {
   background-color: #320073;
 }
 
-.navbar {
-  display: flex;
-  background-color: #FF00A5;
-  padding: 1%;
-  border-radius:25px;
-  box-shadow: 3px 4px 2px rgba(0,0,0,0.25)
+.navbar {  
+  margin:0;
+  padding:0;
+  list-style:none;
+  margin: 10rem auto;
+  margin-bottom:3rem;
+  margin-top:1.2rem;
+  width: 98%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  float:left;
+ }
+
+
+ .navbar > li{
+  background-color:#FF00A5;
+  width:30%;
+  transform: skewX(20deg);
+  position: relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:0.5rem solid black;
+ }
+
+
+ .nav{
+  text-decoration: none;
+  width:25rem;
+  height:3rem;
+ }
+ .navbar > li > a{
+  font-size: 1.8em;
+  transform: skewX(-10deg);
+ }
+
+
+ .nav:hover {
+  background:violet ;
+  transform:scale(1.1);
+ }  
+
+
+ @media (max-width: 1000px) {
+
+
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar > li{
+    margin-bottom:3rem;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+
+  .navbar{
+    flex-direction: column;
+  }
+  #standings,#fixtures,#fantasy{
+    font-size:1rem;
+  }
+  .navbar > li{
+    margin-bottom:3rem;
+  }
+ 
 }
 
 
@@ -62,12 +125,9 @@ header {
   color: white;
 }
 
-.nav {
-  color: white;
-}
-
 #standings, #fixtures, #fantasy {
-  padding: 1%;
+  padding: 2%;
+  padding-top:5%;
   color: white;
   font-size: large;
 }

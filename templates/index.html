@@ -7,11 +7,11 @@
 {% endblock %}
 {% block body %}
   <header>
-    <div class="navbar">
-        <div id="standings"><a class="nav" href="{{url_for('standings')}}">Standings</a></div>
-        <div id="fixtures"><a class="nav" href="{{url_for('fixtures')}}">Fixtures</a></div>
-        <div id="fantasy"><a class="nav" href="{{url_for('Fan_Poll')}}">Fan Poll</div>
-    </div>
+    <ul class="navbar">
+      <li><a class="nav" id="standings" href="{{url_for('standings')}}">STANDINGS</a></li>
+      <li><a class="nav" id="fixtures" href="{{url_for('fixtures')}}">FIXTURES</a></li>
+      <li><a class="nav" id="fantasy" href="{{url_for('Fan_Poll')}}">FAN POLL</a></li>
+    </ul>
     <h1 id="title">Welcome to ICC World Cup 2023</h1>
   </header>
   <div>
