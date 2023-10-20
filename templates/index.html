@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 {% endblock %}
 {% block body %}
-  <header>
+  <!-- <header>
     <div class="navbar">
         <div id="standings"><a class="nav" href="{{url_for('standings')}}">Standings</a></div>
         <div id="fixtures"><a class="nav" href="{{url_for('fixtures')}}">Fixtures</a></div>
@@ -100,18 +100,19 @@
   </a>
   </li>
 </ul>
-<script src="https://kit.fontawesome.com/f029a601af.js" crossorigin="anonymous"></script>
-<!-- <header>
+<script src="https://kit.fontawesome.com/f029a601af.js" crossorigin="anonymous"></script> -->
+<header>
   <div class="navbar">
+    <div id="fixtures"><a class="nav" href="{{url_for('index')}}">Home</a></div>
     <div id="standings"><a class="nav" href="{{url_for('standings')}}">Standings</a></div>
     <div id="fixtures"><a class="nav" href="{{url_for('fixtures')}}">Fixtures</a></div>
-    <div id="fantasy"><a class="nav" href="{{url_for('Fan_Poll')}}">Fan Poll</div>
+    <div id="fantasy"><a class="nav" href="{{url_for('Fan_Poll')}}">Fan Poll</a></div>
   </div>
   <h1 id="title">Welcome to ICC World Cup 2023</h1>
 </header>
 <div>
   <a href="index.html">
-    <div class="icclogo"><img src="{{url_for('static', filename='SVG/ICC-WC-logo.png')}}" alt="icc-logo"></div>
+    <div class="icclogo"><img src="{{url_for('static', filename='SVG/ICC-WC-2023.png')}}" alt="icc-logo"></div>
   </a>
   <div class="table">
     <div class="group">
@@ -172,7 +173,7 @@
 </div>
 <footer>
   <div class="global-footer__social-container">
-    <h5 class="footer-social__subtitle">Follow <span>Us</span> On social</h5>
+    <h5 class="footer-social__subtitle">Follow <span>Us</span> On Social Media</h5>
     <ul class="footer-social">
       <li class="footer-social__item">
         <a href="https://www.facebook.com/cricketworldcup/" class="footer-social__link facebook" target="_blank">
@@ -197,5 +198,5 @@
     </ul>
 
   </div>
-</footer> -->
+</footer>
 {% endblock %}

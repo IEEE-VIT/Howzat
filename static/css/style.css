@@ -1,8 +1,22 @@
-html{
-  background-color: #320073;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root{
+  --persianRose:#FF00A5;
+  --persianBlue:#320073;
+  --champagnePink:#E8D6CB;
+  --thistle:#D7C0D0;
+  --azure:#CEE0DC; 
+  --silver:#BFB5AF;
+   
 }
-body{
-  background-color: #320073;
+
+html{
+  padding-top: 100px;
+  background-color:var(--silver);
+  font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar{
+  /* background-color: #320073; */
+  display: none;
 }
 .icclogo{
   display: flex;
@@ -20,6 +34,8 @@ body{
 
 .table{
   display: flex;
+  justify-content: center;
+
 }
 
 .teamlogo{
@@ -28,14 +44,14 @@ body{
 .group{
   display: flex;
   flex-direction: column;
-  background-color: #FF00A5;
-  height: 20rem;
+  border: 6px solid var(--persianRose);
+  /* background-color: #FF00A5; */
+  /* height: 20rem; */
   width: 40%;
-  padding: 1%;
   justify-content: center;
   margin:0 20px 0 20px;
-  border-radius: 50px;
-  box-shadow: 3px 4px 2px rgba(0,0,0,0.25)
+  border-radius: 20px;
+  box-shadow: 11px 13px 20px -6px rgba(130,130,130,1);
 }
 
 .team{
@@ -43,30 +59,54 @@ body{
   justify-content: space-evenly;
   color: white;
   font-size: x-large;
-  padding: 3%;
+  padding: 4%;
+  align-items: center;
+   padding: 5% 0% 5% 0%;
 }
-
+.team div{
+  padding:0% 4% 0% 4%;
+}
+.icclogo{
+  margin:auto;
+}
 .logo{
-  height:20px;
-  width:40px;
+  height:50px;
+  /* margin: auto; */
+  /* width:40px; */
 }
 
-header {
-  background-color: #320073;
+.table .group .team{
+  /* border-bottom: 2px solid black; */
+}
+
+.table .group .team:nth-child(2n){
+  background-color: #ff00a6a4;
 }
 
 .navbar {
   display: flex;
-  background-color: #FF00A5;
-  padding: 1%;
-  border-radius:25px;
-  box-shadow: 3px 4px 2px rgba(0,0,0,0.25)
+  justify-content: space-around;
+  background-color: var(--persianBlue);
+  padding: 0.5%;
+  border-radius:10px;
+  position: fixed;
+  top:1%;
+  width: 98%;
+  box-shadow: 11px 13px 54px -17px rgba(92,89,92,1);
+  /* box-shadow: 11px 13px 20px -6px rgba(130,130,130,1); */
+}
+.navbar a{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 
-#title {
+#title{
   text-align: center;
   color: white;
+  text-decoration: none;
+  font-size: 60px;
 }
 
 .nav {
@@ -78,7 +118,13 @@ header {
   color: white;
   font-size: large;
 }
+.global-footer__social-container{
+  margin: 10% 0% 5% 0% ;
+}
 
+.global-footer__social-container h5{
+  font-size: 20px;
+}
 
 .footer-social {
   display: flex;
@@ -89,6 +135,8 @@ header {
 }
 .footer-social {
   list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer-social__subtitle {
