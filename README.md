@@ -32,6 +32,13 @@ It will automatically be redeployed whenever a PR is merged
 - SQLite (Database)
 - OAuth
 
+## Run Howzat
+- Clone the repo. `git clone https://github.com/IEEE-VIT/Howzat.git` && cd Howzat
+- Create a virtual environment
+- Activate your virtual environment
+- `pip install -r requirements.txt`
+- `python app.py`
+
 ## Structure
 
 The website is structured according to Flask, organized into the following components:

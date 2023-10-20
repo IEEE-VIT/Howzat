@@ -9,6 +9,13 @@ body{
   height: 380px;
   justify-content: center;
   margin-right: 50px;
+  opacity: 1.0;
+}
+
+/*logo resize*/
+.icclogo img {
+  width: 15rem;
+  object-fit: contain;
 }
 
 .table{
@@ -37,9 +44,6 @@ body{
   color: white;
   font-size: x-large;
   padding: 3%;
-}
-.icclogo{
-  opacity: 0.8;
 }
 
 .logo{
@@ -99,6 +103,7 @@ header {
 .footer-social__item {
   position: relative;
   margin-right: 1.6rem;
+  list-style-type: none;
 }
 
 .footer-social__link .icon {
