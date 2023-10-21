@@ -1,53 +1,9 @@
-body{
+/* Global Styles */
+body {
   background-color: #320073;
 }
-.icclogo{
-  display: flex;
-  height: 380px;
-  justify-content: center;
-  margin-right: 50px;
-  opacity: 1.0;
-}
 
-/*logo resize*/
-.icclogo img {
-  width: 15rem;
-  object-fit: contain;
-}
-
-.table{
-  display: flex;
-}
-
-.teamlogo{
-  height: 10px;
-}
-.group{
-  display: flex;
-  flex-direction: column;
-  background-color: #FF00A5;
-  height: 20rem;
-  width: 40%;
-  padding: 1%;
-  justify-content: center;
-  margin:0 20px 0 20px;
-  border-radius: 50px;
-  box-shadow: 3px 4px 2px rgba(0,0,0,0.25)
-}
-
-.team{
-  display: flex;
-  justify-content: space-evenly;
-  color: white;
-  font-size: x-large;
-  padding: 3%;
-}
-
-.logo{
-  height:20px;
-  width:40px;
-}
-
+/* Header Styles */
 header {
   background-color: #320073;
 }
@@ -56,10 +12,9 @@ header {
   display: flex;
   background-color: #FF00A5;
   padding: 1%;
-  border-radius:25px;
-  box-shadow: 3px 4px 2px rgba(0,0,0,0.25)
+  border-radius: 25px;
+  box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.25);
 }
-
 
 #title {
   text-align: center;
@@ -76,6 +31,57 @@ header {
   font-size: large;
 }
 
+/* Logo Styles */
+.icclogo {
+  display: flex;
+  height: 380px;
+  justify-content: center;
+  margin-right: 50px;
+  opacity: 1.0;
+}
+
+/* Logo Resize */
+.icclogo img {
+  width: 15rem;
+  object-fit: contain;
+}
+
+/* Team Table Styles */
+.table {
+  display: flex;
+}
+
+/* Team Logo Styles */
+.team img.logo {
+  height: 2rem; /* Set a fixed height for the flag images */
+  width: auto; /* Maintain the aspect ratio */
+  object-fit: contain; /* Ensure the image fits within the fixed height */
+}
+
+/* Group Styles */
+.group {
+  display: flex;
+  flex-direction: column;
+  background-color: #FF00A5;
+  height: 20rem;
+  width: 40%;
+  padding: 1%;
+  justify-content: center;
+  margin: 0 20px 0 60px;
+  border-radius: 50px;
+  box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Team Styles */
+.team {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: x-large;
+  padding: 3%;
+}
+
+/* Footer Styles */
 .footer-social {
   display: flex;
   justify-content: center;
@@ -91,7 +97,6 @@ header {
   color: white;
   text-transform: uppercase;
 }
-
 
 .footer-social__item {
   position: relative;
