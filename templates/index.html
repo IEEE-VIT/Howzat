@@ -21,56 +21,56 @@
     <div class="table">
       <div class="group">
         <div class="team">
-            <div><span>1</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/afg.svg')}}" alt="Afghanistan">
-            <div>AFG</div>
+            <div>1</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/afg.png')}}" alt="Afghanistan">
+            <div class="team-name">AFG</div>
         </div>
         <div class='team'>
-            <div><span>2</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/aus.svg')}}" alt="Australia">
+            <div>2</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/aus.png')}}" alt="Australia">
             <div>AUS</div>
         </div>
         <div class="team">
-            <div><span>3</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/bang.svg')}}" alt="Bangladesh">
+            <div>3</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/bang.png')}}" alt="Bangladesh">
             <div>BAN</div>
         </div>
         <div class="team">
-            <div><span>4</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="England">
+            <div>4</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/eng.png')}}" alt="England">
             <div>ENG</div>
         </div>
         <div class="team">
-            <div><span>5</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/ind.svg')}}" alt="India">
+            <div>5</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/ind.png')}}" alt="India">
             <div>IND</div>
         </div>
       </div>
       <div class="group">
         <div class="team">
-          <div><span>6</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="Netherlands">
+          <div>6</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/nd.png')}}" alt="Netherlands">
             <div>ND</div>
         </div>
         <div class="team">
-            <div><span>7</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="newzealand">
+            <div>7</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/nz.png')}}" alt="newzealand">
             <div>NZ</div>
         </div>
         <div class="team">
-          <div><span>8</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/pak.svg')}} " alt="pakistan">
+          <div>8</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/pak.png')}} " alt="pakistan">
             <div>PAK</div>
         </div>
         <div class="team">
-            <div><span>9</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sa.svg')}}" alt="southafrica">
+            <div>9</div>
+            <img class='logo' src="{{url_for('static', filename='PNG/sa.png')}}" alt="southafrica">
             <div>SA</div>
         </div>
         <div class="team">
-            <div><span>10</span></div>
-            <img class='logo' src="{{url_for('static', filename='SVG/sl.svg')}}" alt="srilanka">
-            <div>SL</div>
+            <div>10</div>
+            <img class='logo' id="last-team" src="{{url_for('static', filename='PNG/sl.png')}}" alt="srilanka">
+            <div id="last-team-name">SL</div>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@
   <footer>
     <div class="global-footer__social-container">
       <ul class="footer-social">
-<h5 class="footer-social__subtitle">Follow <span>Us</span> On social</h5>
+<h5 class="footer-social__subtitle">Follow Us On social</h5>
 <li class="footer-social__item">
   <a href="https://www.facebook.com/cricketworldcup/" class="footer-social__link facebook" target="_blank">
       <img class='icon' src="{{url_for('static', filename='SVG/facebook.svg')}}" alt="facebook">
