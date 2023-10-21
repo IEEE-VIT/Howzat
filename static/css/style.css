@@ -11,7 +11,7 @@
 
 html{
   padding-top: 100px;
-  background-color:var(--silver);
+  background-color:var(--persianBlue);
   font-family: 'Poppins', sans-serif;
 }
 body::-webkit-scrollbar{
@@ -51,7 +51,7 @@ body::-webkit-scrollbar{
   justify-content: center;
   margin:0 20px 0 20px;
   border-radius: 20px;
-  box-shadow: 11px 13px 20px -6px rgba(130,130,130,1);
+  /* box-shadow: 11px 13px 20px -6px rgba(130,130,130,1); */
 }
 
 .team{
@@ -80,19 +80,19 @@ body::-webkit-scrollbar{
 }
 
 .table .group .team:nth-child(2n){
-  background-color: #ff00a6a4;
+  background-color: var(--persianRose);
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
-  background-color: var(--persianBlue);
+  background-color: var(--persianRose);
   padding: 0.5%;
   border-radius:10px;
   position: fixed;
   top:1%;
   width: 98%;
-  box-shadow: 11px 13px 54px -17px rgba(92,89,92,1);
+  /* box-shadow: 11px 13px 54px -17px rgba(92,89,92,1); */
   /* box-shadow: 11px 13px 20px -6px rgba(130,130,130,1); */
 }
 .navbar a{
@@ -120,6 +120,7 @@ body::-webkit-scrollbar{
 }
 .global-footer__social-container{
   margin: 10% 0% 5% 0% ;
+  /* background-color: #ff00a66b; */
 }
 
 .global-footer__social-container h5{
@@ -128,16 +129,17 @@ body::-webkit-scrollbar{
 
 .footer-social {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  position: relative;
-  z-index: 10;
-}
-.footer-social {
+  /* position: relative;
+  z-index: 10; */
   list-style: none;
-  display: flex;
+  /* display: flex; */
+  width: 60%;
+  margin: auto;
   justify-content: space-around;
+  
 }
+
 
 .footer-social__subtitle {
   width: 100%;
