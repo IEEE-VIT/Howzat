@@ -1,6 +1,32 @@
+/* font */
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
 /* Global Styles */
 body {
   background-color: #320073;
+  font-family: "CWC Font";
 }
 
 /* Header Styles */
@@ -56,6 +82,7 @@ header {
 .group {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #FF00A5;
   height: 20rem;
   width: 40%;
@@ -70,9 +97,9 @@ header {
 .team {
   display: flex;
   color: white;
+  text-align: left;
   font-size: x-large;
   align-items: center;
-  text-align: left;
   padding: 3%;
 }
 
