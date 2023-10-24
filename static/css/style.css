@@ -15,7 +15,6 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 body::-webkit-scrollbar{
-  /* background-color: #320073; */
   display: none;
 }
 .icclogo{
@@ -26,7 +25,6 @@ body::-webkit-scrollbar{
   opacity: 1.0;
 }
 
-/*logo resize*/
 .icclogo img {
   width: 15rem;
   object-fit: contain;
@@ -45,13 +43,10 @@ body::-webkit-scrollbar{
   display: flex;
   flex-direction: column;
   border: 6px solid var(--persianRose);
-  /* background-color: #FF00A5; */
-  /* height: 20rem; */
   width: 40%;
   justify-content: center;
   margin:0 20px 0 20px;
   border-radius: 20px;
-  /* box-shadow: 11px 13px 20px -6px rgba(130,130,130,1); */
 }
 
 .team{
@@ -71,12 +66,6 @@ body::-webkit-scrollbar{
 }
 .logo{
   height:50px;
-  /* margin: auto; */
-  /* width:40px; */
-}
-
-.table .group .team{
-  /* border-bottom: 2px solid black; */
 }
 
 .table .group .team:nth-child(2n){
@@ -92,8 +81,6 @@ body::-webkit-scrollbar{
   position: fixed;
   top:1%;
   width: 98%;
-  /* box-shadow: 11px 13px 54px -17px rgba(92,89,92,1); */
-  /* box-shadow: 11px 13px 20px -6px rgba(130,130,130,1); */
 }
 .navbar a{
   text-decoration: none;
@@ -120,7 +107,6 @@ body::-webkit-scrollbar{
 }
 .global-footer__social-container{
   margin: 10% 0% 5% 0% ;
-  /* background-color: #ff00a66b; */
 }
 
 .global-footer__social-container h5{
@@ -130,10 +116,8 @@ body::-webkit-scrollbar{
 .footer-social {
   display: flex;
   flex-wrap: wrap;
-  /* position: relative;
   z-index: 10; */
   list-style: none;
-  /* display: flex; */
   width: 60%;
   margin: auto;
   justify-content: space-around;
