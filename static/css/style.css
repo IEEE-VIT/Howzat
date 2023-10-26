@@ -1,6 +1,32 @@
+/* font */
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
 /* Global Styles */
 body {
   background-color: #320073;
+  font-family: "CWC Font";
 }
 
 /* Header Styles */
@@ -14,6 +40,10 @@ header {
   padding: 1%;
   border-radius: 25px;
   box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 #title {
@@ -49,13 +79,13 @@ header {
 /* Team Table Styles */
 .table {
   display: flex;
-  
 }
 
 /* Group Styles */
 .group {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #FF00A5;
   height: 20rem;
   width: 40%;
@@ -68,32 +98,20 @@ header {
 
 /* Team Styles */
 .team {
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   color: white;
+  text-align: center;
   font-size: x-large;
-  align-items: center;
-  text-align: left;
   padding: 3%;
-}
-
-.team {
-  display: flex;
-  align-items: center;
-  margin: 0 6rem;
 }
 
 .team img{  
   height: 2rem;
   width: 2rem;
-  margin: 0 8rem;
-}
-
-#last-team{  
-  margin: 0 7.2rem;
-}
-
-#last-team-name{
-  margin: 0 1rem;
+  object-fit: cover;
 }
 
 /* Footer Styles */
@@ -132,9 +150,21 @@ svg.icon {
   fill: currentColor;
 }
 
-.team img.logo {
+.team .logo {
   width: 3rem; 
   height: 2rem; 
-  object-fit: contain; 
+  object-fit: cover; 
+}
+
+#last-team {
+  margin-right: .5em;
+}
+
+#team-5 img {
+  margin-right: 0.3em;
+}
+
+#team-8 img {
+  margin-left: 0.5em;
 }
 
