@@ -1,24 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-:root{
-  --persianRose:#FF00A5;
-  --persianBlue:#320073;
-  --champagnePink:#E8D6CB;
-  --thistle:#D7C0D0;
-  --azure:#CEE0DC;
-  --silver:#BFB5AF;
-   
+/* font */
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Light.woff2') format('woff2');
+  font-weight: 300;
 }
 
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
 
-html{
-  padding-top: 100px;
-  background-color:var(--persianBlue);
-  font-family: 'Poppins', sans-serif;
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Medium.woff2') format('woff2');
+  font-weight: 500;
 }
-body::-webkit-scrollbar{
-  display: none;
+
+@font-face {
+  font-family: 'CWC Font';
+  src: url('../fonts/CWC-Bold.woff2') format('woff2');
+  font-weight: 700;
 }
-.icclogo{
+
+/* Global Styles */
+body {
+  background-color: #320073;
+  font-family: "CWC Font";
+}
+
+/* Header Styles */
+header {
+  background-color: #320073;
+}
+
+.navbar {
+  display: flex;
+  background-color: #FF00A5;
+  padding: 1%;
+  border-radius: 25px;
+  box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+#title {
+  text-align: center;
+  color: white;
+}
+
+.nav {
+  color: white;
+}
+
+#standings, #fixtures, #fantasy {
+  padding: 1%;
+  color: white;
+  font-size: large;
+}
+
+/* Logo Styles */
+.icclogo {
   display: flex;
   height: 380px;
   justify-content: center;
@@ -26,121 +70,58 @@ body::-webkit-scrollbar{
   opacity: 1.0;
 }
 
-
+/* Logo Resize */
 .icclogo img {
   width: 15rem;
   object-fit: contain;
 }
 
-
-.table{
+/* Team Table Styles */
+.table {
   display: flex;
-  justify-content: center;
-
-
 }
 
-
-.teamlogo{
-  height: 10px;
-}
-.group{
+/* Group Styles */
+.group {
   display: flex;
   flex-direction: column;
-  border: 6px solid var(--persianRose);
-  width: 40%;
-  justify-content: center;
-  margin:0 20px 0 20px;
-  border-radius: 20px;
-}
-
-
-.team{
-  display: flex;
-  justify-content: space-evenly;
-  color: white;
-  font-size: x-large;
-  padding: 4%;
   align-items: center;
-   padding: 5% 0% 5% 0%;
-}
-.team div{
-  padding:0% 4% 0% 4%;
-}
-.icclogo{
-  margin:auto;
-}
-.logo{
-  height:50px;
-}
-
-
-.table .group .team:nth-child(2n){
-  background-color: var(--persianRose);
-}
-
-
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  background-color: var(--persianRose);
-  padding: 0.5%;
-  border-radius:10px;
-  position: fixed;
-  top:1%;
-  width: 98%;
-}
-.navbar a{
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-
-
-}
-
-
-
-
-#title{
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 60px;
-}
-
-
-.nav {
-  color: white;
-}
-
-
-#standings, #fixtures, #fantasy {
+  background-color: #FF00A5;
+  height: 20rem;
+  width: 40%;
   padding: 1%;
+  justify-content: center;
+  margin: 0 20px 0 60px;
+  border-radius: 50px;
+  box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Team Styles */
+.team {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   color: white;
-  font-size: large;
-}
-.global-footer__social-container{
-  margin: 10% 0% 5% 0% ;
-}
-
-
-.global-footer__social-container h5{
-  font-size: 20px;
+  text-align: center;
+  font-size: x-large;
+  padding: 3%;
 }
 
+.team img{  
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+}
 
+/* Footer Styles */
 .footer-social {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  z-index: 10; */
-  list-style: none;
-  width: 60%;
-  margin: auto;
-  justify-content: space-around;
- 
+  position: relative;
+  z-index: 10;
 }
-
-
-
 
 .footer-social__subtitle {
   width: 100%;
@@ -150,15 +131,11 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
 }
 
-
-
-
 .footer-social__item {
   position: relative;
   margin-right: 1.6rem;
   list-style-type: none;
 }
-
 
 .footer-social__link .icon {
   height: 2.6rem;
@@ -167,13 +144,26 @@ body::-webkit-scrollbar{
   fill: white;
 }
 
-
-svg {
+svg.icon {
   width: 1.8rem;
   height: 1.8rem;
-  fill: rgb(255, 255, 255);
+  fill: currentColor;
 }
 
+.team .logo {
+  width: 3rem; 
+  height: 2rem; 
+  object-fit: cover; 
+}
 
+#last-team {
+  margin-right: .5em;
+}
 
+#team-5 img {
+  margin-right: 0.3em;
+}
 
+#team-8 img {
+  margin-left: 0.5em;
+}
