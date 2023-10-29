@@ -50,11 +50,11 @@ The website is structured according to Flask, organized into the following compo
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/IEEE-VIT/Howzat`
-2. Checkout to a new branch: `git checkout -b my-amazing-feature`
+2. Checkout to a new branch: `git checkout -b branch-name`
 3. Make your changes.
 4. `git add .`
 5. `git commit -m "A short description of the feature."`
-6. `git push origin my-amazing-feature`
+6. `git push origin branch-name`
 7. Open a pull request to the curated issues.
 
 To start contributing, [CONTRIBUTING.md](https://github.com/IEEE-VIT/Howzat/blob/main/CONTRIBUTING.md) . <br>Feel free to fork the repository and submit a pull request with your changes. We welcome improvements, bug fixes, and additional features!
