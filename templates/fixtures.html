@@ -39,4 +39,32 @@
              </div>
             {% endfor %}
         </div>
+        <div class="matchs" id="match-date">
+            {% for fixture in fixtures %}
+                <div class="match">
+                    <div class="match-info">
+                        <h4 class="venue">{{ fixture.venue }}</h4>
+                        <h4><span class="badge">{{ fixture.matchNumber }}</span> </h4>
+                    </div>
+                    <div class="teams">
+                        <div>
+                        <h3 class="team1">{{ fixture.team_1 }}</h3>
+                        </div>
+                        <span class="vs">
+                        VS
+                        </span>
+                        <div>
+                        <h3 class="team2">{{ fixture.team_2 }}</h3>
+                        </div>
+                    </div>
+                    <div class="time-area">
+                        <div class="time">
+                            <h4 class="month">{{ fixture.day_month[-3:] }}</h4>
+                            <h4 class="date">{{ fixture.date }}<h4>
+                        </div>
+                        <h4 class="match-time">{{ fixture.time }}</h4>
+                    </div>
+             </div>
+            {% endfor %}
+        </div>
 {% endblock %}
